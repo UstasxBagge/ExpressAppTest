@@ -1,7 +1,7 @@
 // Thank you to https://dev.to/lukekyl/testing-your-express-js-backend-server-3ae6
 // Thank you to https://github.com/ladjs/supertest/issues/520
 
-const my_express_server = require("../server");
+const my_express_server = require("../index");
 const supertest = require("supertest");
 const { default: expect } = require("expect");
 
