@@ -1,8 +1,5 @@
 FROM node:23-alpine3.19
 
-COPY package.json /app/
-COPY src /app/
-
 WORKDIR /app
 
 RUN npm install
