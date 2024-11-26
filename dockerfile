@@ -10,4 +10,4 @@ COPY . .
 
 CMD ["node", "server.js"]
 
-RUN npm run test
+RUN npm test
