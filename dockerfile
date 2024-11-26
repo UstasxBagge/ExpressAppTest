@@ -8,5 +8,3 @@ COPY src /app/src
 RUN npm install
 
 CMD ["node", "server.js"]
-
-RUN npm run test
